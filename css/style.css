@@ -1,2 +1,16 @@
 @import './Global/global.css';
 @import './Global/header.css';
+@import './Global/footer.css';
+
+
+@import './home/introducao.css';
+@import './home/tecnologia.css';
+@import './home/parceiros.css';
+@import './home/depoimento.css';
+@import './bikes/bikeElectrichop-lista.css';
+
+@import './insurance/seguro.css';
+
+@import './utilities/componentes.css';
+@import './utilities/tipografia.css';
+@import './utilities/cores.css';

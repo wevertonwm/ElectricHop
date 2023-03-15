@@ -9,9 +9,7 @@
   justify-content: space-between;
   align-items: center;
 
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  padding: 2rem 0;
 }
 
 .header-menu {
@@ -23,9 +21,6 @@
 .header-menu a {
   display: inline-block;
   padding: 1.6rem 0;
-  font-size: 1.8rem;
-  color: var(--cor-0);
-  font-weight: 500;
 
   position: relative;
 }
@@ -34,14 +29,14 @@
   content: '';
   display: block;
   width: 0;
-  height: 0.2rem;
-  background: var(--cor-0);
+  height: 0.4rem;
+  background: var(--cor-p1);
 
   margin-top: 0.4rem;
   position: absolute;
 }
 
-.header-menu a:hover:after {
+.header-menu a:hover::after {
   width: 100%;
   transition: 0.3s;
 }
